@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338554140030",
+    "project_id": "punchin-dca49",
+    "storage_bucket": "punchin-dca49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338554140030:android:03daae410acbceda982f2f",
+        "android_client_info": {
+          "package_name": "com.example.punchin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338554140030-8vgo5oomo0cft23j8ka212d48d3hsv0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMBVsVqlstM5b5IWlVHwizt5paNVUl6Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338554140030-8vgo5oomo0cft23j8ka212d48d3hsv0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
