@@ -19,10 +19,15 @@ After that go to the project directory and run the following:
 
 `flutter run`
 
-You might be asked to select the device you want to run the application on.
+You might be asked to select the device you want to run the application on. For iOS you might need to to do the following:
+1. Quit Xcode.
+2. Delete Runner.xcworkplace
+3. Delete Podfile.lock
+4. Deleete Pods folder
+5. Run `pod install`
 
-### Run the application by installing APK and IPA
+If you are using Xcode 14.1 beta 1 or 2, you might encounter the issue "GameKit module not found", to solve this just comment out the code in `FIRGameCenterAuthProvider`
+
+### Run the application by installing APK (For Android Only)
 
 I will include the `.apk` file with this project if you want to install it directory into your Android device.
-I will also include the `.ipa` file to install the application on your iOS device, but this requires me to add your
-device ID.
