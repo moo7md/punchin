@@ -26,7 +26,7 @@ You might be asked to select the device you want to run the application on. For 
 4. Deleete Pods folder
 5. Run `pod install`
 
-If you are using Xcode 14.1 beta 1 or 2, you might encounter the issue "GameKit module not found", to solve this just comment out the code in `FIRGameCenterAuthProvider`
+If you are using Xcode 14.1 beta 1 or 2, you might encounter the issue "GameKit module not found", to solve this just comment out the code in `FIRGameCenterAuthProvider.m`
 
 ### Run the application by installing APK (For Android Only)
 
