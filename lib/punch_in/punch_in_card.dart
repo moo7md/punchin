@@ -68,7 +68,7 @@ class PunchInCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Text(
-                  punchIn.type == PunchInType.In ? "Punched in" : "Punched in",
+                  punchIn.type == PunchInType.In ? "Punched in" : "Punched out",
                   style: const TextStyle(fontSize: 24),
                 ),
                 Text(formatDateTime(punchIn.createdOn.toDate())),
